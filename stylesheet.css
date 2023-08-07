@@ -26,12 +26,16 @@ body {
 
 .nav-wrapper ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 }
 
 .nav-wrapper li {
   padding: 3% 1.4%;
   font-size: 100%;
+}
+
+.test {
+  text-align: center;
+  position: relative;
+  width: 25%;
 }
