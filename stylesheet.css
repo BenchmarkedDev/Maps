@@ -9,19 +9,21 @@
   overflow-x: hidden;
   scroll-behavior: smooth; /* Links will scroll smoothly to the target content, instead of instantly jumping to it */
   scrollbar-color: rgb(29, 55, 102) rgb(165, 166, 170); /* Set scrollbar color to match the theme of the website */
-  color: #000;
+  color: #fff;
+}
+
+@media screen and (min-width: 1000px) {
+  .nav-wrapper li {
+    font-size: 130% !important;
+  }
+}
+
+hr {
+  border: 3px solid #000;
 }
 
 body {
   background: #fff;
-}
-
-.nav-wrapper {
-  background-image: linear-gradient(
-    109.6deg,
-    rgba(61, 131, 97, 1) 11.2%,
-    rgba(28, 103, 88, 1) 91.1%
-  );
 }
 
 .nav-wrapper ul {
@@ -32,10 +34,15 @@ body {
 .nav-wrapper li {
   padding: 3% 1.4%;
   font-size: 100%;
+  background: #9240ff;
 }
 
-.test {
+.nav-text {
   text-align: center;
   position: relative;
   width: 25%;
+}
+
+.nav-text a:hover {
+  color: #000;
 }
