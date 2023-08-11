@@ -89,3 +89,11 @@ body {
 .map:nth-child(even) {
   background: #fbc2eb;
 }
+
+.showcase {
+  color: darkblue;
+}
+
+.gamebanana {
+  color: darkgreen;
+}
