@@ -8,7 +8,7 @@
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   scroll-behavior: smooth; /* Links will scroll smoothly to the target content, instead of instantly jumping to it */
-  scrollbar-color: rgb(29, 55, 102) rgb(165, 166, 170); /* Set scrollbar color to match the theme of the website */
+  scrollbar-color: rgb(190, 107, 177) rgb(113, 56, 136); /* Set scrollbar color to match the theme of the website */
   color: #000;
 }
 
