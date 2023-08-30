@@ -55,10 +55,9 @@ body {
 .header-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 4% 2%;
-  flex-wrap: wrap;
-  text-align: center;
+  margin: 5%;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .logo-wrapper {
@@ -68,28 +67,7 @@ body {
   max-width: 100%;
 }
 
-.header-wrapper h2 {
-  margin-top: 2%;
-  text-decoration: underline;
-}
-.header-wrapper p {
-  margin: 2% 10%;
-}
-
 .about {
-  height: 400px;
-  width: 350px;
-  transition: all 0.4s linear;
-}
-
-.about-1,
-.about-3 {
-  margin: 1%;
-  background: #a18cd1;
-  border: 3px solid black;
-}
-.about-2 {
-  margin: 1%;
-  background: #fbc2eb;
-  border: 3px solid black;
+  max-width: 100%;
+  padding: 2.5%;
 }

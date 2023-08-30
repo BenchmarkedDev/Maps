@@ -17,6 +17,12 @@
     font-size: 130% !important;
   }
 }
+@media screen and (min-width: 721px) {
+  .nav-arrow:hover {
+    transform: translateY(-3%);
+    transition: all 0.2s linear;
+  }
+}
 
 hr {
   border: 3px solid #000;
@@ -101,4 +107,14 @@ body {
 
 .gamebanana {
   color: darkgreen;
+}
+.arrow-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-arrow {
+  height: 100px;
+  width: 100px;
+  transition: all 0.2s linear;
 }
